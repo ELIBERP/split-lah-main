@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="start|center_vertical">
+
+        <!-- Title TextView for Add Member -->
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_member"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"/>
+
+        <!-- Cancel Button -->
+        <ImageButton
+            android:id="@+id/cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_cancel_24"
+            android:contentDescription="@string/cancel"
+            android:background="@android:color/transparent" />
+    </LinearLayout>
+
+    <!-- Add Existing Member Button -->
+    <Button
+        android:id="@+id/addExistingMemberButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_existing_member"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/baseline_group_24"
+        android:textAllCaps="false"
+        android:background="?android:attr/selectableItemBackground"
+        android:paddingStart="0dp"
+        android:paddingEnd="16dp"
+        android:gravity="center_vertical"
+        android:elevation="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="start"/>
+
+    <!-- Create Ghost Member Button -->
+    <Button
+        android:id="@+id/createGhostMemberButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_ghost_member"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/baseline_face_24"
+        android:textAllCaps="false"
+        android:background="?android:attr/selectableItemBackground"
+        android:paddingStart="0dp"
+        android:paddingEnd="16dp"
+        android:gravity="center_vertical"
+        android:elevation="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="start"/>
+
+</LinearLayout>

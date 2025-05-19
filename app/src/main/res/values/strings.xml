@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">split-lah</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="fab_desc"></string>
+
+    <string name="logo">Logo</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_overview">Overview</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="login">Login</string>
+    <string name="email">Enter email</string>
+    <string name="email_reset">Enter your email</string>
+    <string name="phone">Enter phone number</string>
+    <string name="password">Enter password</string>
+    <string name="on">ON</string>
+    <string name="off">Off</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="forgot_password_title">Forget Password</string>
+    <string name="send_reset_link">Send Reset Link</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="menu_logout">Logout</string>
+    <string name="register_here">Don\'t have an account? <b>Register here!</b></string>
+    <string name="first_name">Enter first name</string>
+    <string name="last_name">Enter last name</string>
+    <string name="back_to_login">Back to login</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="menu_members">Members</string>
+    <string name="menu_net_balances">Net Balances</string>
+    <string name="menu_my_spending">My Spending</string>
+    <string name="menu_recent_splits">Recent Splits</string>
+    <string name="menu_records">Records</string>
+    <string name="menu_notifications">Notifications</string>
+    <string name="menu_new_group">New Group</string>
+    <string name="menu_debt_relations">Debt Relations</string>
+    <string name="menu_new_temporary_group">New Temporary Group</string>
+    <string name="group_name"></string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_debt_relations_found">No Debt Relations Found</string>
+    <string name="no_records">No Records</string>
+    <string name="have_not_created_records">You haven\'t created any records yet.</string>
+    <string name="click_to_create_record">Click + to create a new record.</string>
+
+    <string name="new_temp_grp">New Temporary Group</string>
+    <string name="groups">Groups</string>
+    <string name="new_perm_grp">New Group</string>
+    <string name="grp_name">Group Name</string>
+    <string name="currency">Currency</string>
+    <string name="members">Members</string>
+    <string name="add_members">Add Members</string>
+    <string name="add_bill">Add Bill</string>
+    <string name="add_group">Add Group</string>
+    <string name="new_member">New Member</string>
+    <string name="nickname1">Nickname 1</string>
+    <string name="add_another_member">Add another member</string>
+    <string name="done">Done</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_member">Add Member</string>
+    <string name="create_ghost_member">Create ghost member</string>
+    <string name="add_existing_member">Add existing member</string>
+    <string name="send_invite_link">Send invite link</string>
+    <string name="friends">Friends</string>
+    <string name="add_friends_to_group">Add friends to group</string>
+    <string name="bill_split_summary">Bill Split Summary</string>
+    <string name="share">Share</string>
+
+    <string name="see_all">See All</string>
+    <string name="Title">Title</string>
+    <string name="Message"> Message</string>
+    <string name="navigate_to_key">navigateTo</string>
+    <string name="navigate_to_debt_relation">debtRelation</string>
+    <string name="group_id_key">groupId</string>
+    <string name="msg_token_fmt">FCM Registration Token: %1$s</string>
+
+    <string name="equally">Equally</string>
+    <string name="percentage">Percentage</string>
+    <string name="parts">Parts</string>
+    <string name="save_bill">Save Bill</string>
+    <string name="split_by">Split By</string>
+    <string name="paid_by">Paid By</string>
+    <string name="price">Price</string>
+    <string name="new_bill">New Bill</string>
+    <string name="Category">Category</string>
+
+    <string name="transaction_details">Transaction Details</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="split_details">Split Details</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+</resources>

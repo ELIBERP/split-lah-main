@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <activity
+        android:id="@+id/nav_login"
+        android:name="com.example.split_lah.login_system.Login"
+        android:label="Login"
+        tools:layout="@layout/activity_login" />
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.split_lah.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <argument
+        android:name="@string/group_name"
+        app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_records"
+        android:name="com.example.split_lah.ui.records.RecordsFragment"
+        android:label="Records"
+        tools:layout="@layout/fragment_records" />
+
+    <fragment
+        android:id="@+id/nav_debt_relation"
+        android:name="com.example.split_lah.ui.debt_relation.DebtRelationFragment"
+        android:label="@string/menu_debt_relations"
+        tools:layout="@layout/fragment_debt_relation" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.split_lah.ui.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/nav_members"
+        android:name="com.example.split_lah.ui.members.MembersFragment"
+        android:label="Members"
+        tools:layout="@layout/fragment_members" />
+
+    <fragment
+        android:id="@+id/nav_net_balances"
+        android:name="com.example.split_lah.ui.net_balances.NetBalancesFragment"
+        android:label="Net Balances"
+        tools:layout="@layout/fragment_net_balances" />
+
+    <fragment
+        android:id="@+id/new_expense"
+        android:name="com.example.split_lah.ui.split.SplitBillBottomSheet"
+        android:label="New Expense"
+        tools:layout="@layout/fragment_split_bill_bottom_sheet" />
+
+    <fragment
+        android:id="@+id/nav_new_temp_grp"
+        android:name="com.example.split_lah.ui.group.BaseGroupFragment"
+        android:label="@string/new_temp_grp"
+        tools:layout="@layout/fragment_new_group">
+        <argument
+            android:name="group_type"
+            app:argType="string"
+            android:defaultValue="tempgrp" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_new_perm_grp"
+        android:name="com.example.split_lah.ui.group.BaseGroupFragment"
+        android:label="@string/new_perm_grp"
+        tools:layout="@layout/fragment_new_group">
+        <!--   Sets group_type default values     -->
+        <argument
+            android:name="group_type"
+            app:argType="string"
+            android:defaultValue="permgrp" />
+    </fragment>
+
+    <activity
+        android:id="@+id/create_bill"
+        android:name="com.example.split_lah.ui.split.NewBillActivity"
+        android:label="New Bill"
+        tools:layout="@layout/activity_new_bill" />
+
+    <fragment
+        android:id="@+id/transaction_detail"
+        android:name="com.example.split_lah.ui.records.TransactionDetailFragment"
+        android:label="TransactionDetailFragment"
+        tools:layout="@layout/fragment_detailed_records">
+        <argument
+            android:name="transactionId"
+            app:argType="string" />
+        <argument
+            android:name="groupId"
+            app:argType="string" />
+    </fragment>
+
+    <action
+        android:id="@+id/action_navigation_records_to_transaction_detail"
+        app:destination="@id/transaction_detail"
+        app:enterAnim="@anim/nav_default_enter_anim"
+        app:exitAnim="@anim/nav_default_exit_anim"
+        app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+        app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+    <action
+        android:id="@+id/action_navigation_home_to_transaction_detail"
+        app:destination="@id/transaction_detail"
+        app:enterAnim="@anim/nav_default_enter_anim"
+        app:exitAnim="@anim/nav_default_exit_anim"
+        app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+        app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+</navigation>

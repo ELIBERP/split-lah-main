@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_debt_relation_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="0dp"
+    app:cardBackgroundColor="#E7F7D4">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout_home_debt_relation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/img_home_debt_relation_payer"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/grey_100"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_user"
+                android:visibility="visible"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearanceOverlay="@style/circleImageView" />
+
+            <TextView
+                android:id="@+id/tv_home_debt_relation_payer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/roboto_medium"
+                android:text="LeBron"
+                android:textColor="@color/black"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@id/img_home_debt_relation_payer"
+                app:layout_constraintStart_toStartOf="@id/img_home_debt_relation_payer"
+                app:layout_constraintTop_toBottomOf="@id/img_home_debt_relation_payer" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/img_home_debt_relation_payee"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="40dp"
+                android:background="@color/grey_100"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_user"
+                android:visibility="visible"
+                app:layout_constraintRight_toRightOf="@id/layout_home_debt_relation"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearanceOverlay="@style/circleImageView" />
+
+            <TextView
+                android:id="@+id/tv_home_debt_relation_payee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Bronny"
+                android:textColor="@color/black"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@id/img_home_debt_relation_payee"
+                app:layout_constraintStart_toStartOf="@id/img_home_debt_relation_payee"
+                app:layout_constraintTop_toBottomOf="@id/img_home_debt_relation_payee" />
+
+            <ImageView
+                android:id="@+id/iv_home_debt_relation_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:src="@drawable/arrow"
+                android:visibility="visible"
+                app:layout_constraintEnd_toStartOf="@id/img_home_debt_relation_payee"
+                app:layout_constraintStart_toEndOf="@id/img_home_debt_relation_payer"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_needs_to_pay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:text="needs to pay"
+                android:textColor="@color/gray_600"
+                android:textSize="14sp"
+                android:visibility="visible"
+                app:layout_constraintBottom_toTopOf="@id/iv_home_debt_relation_arrow"
+                app:layout_constraintEnd_toStartOf="@id/img_home_debt_relation_payee"
+                app:layout_constraintStart_toEndOf="@id/img_home_debt_relation_payer" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="visible"
+                app:layout_constraintTop_toBottomOf="@id/iv_home_debt_relation_arrow"
+                app:layout_constraintEnd_toStartOf="@id/img_home_debt_relation_payee"
+                app:layout_constraintStart_toEndOf="@id/img_home_debt_relation_payer">
+
+                <TextView
+                    android:id="@+id/tv_home_debt_relation_currency"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="S$"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/tv_home_debt_relation_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="400"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

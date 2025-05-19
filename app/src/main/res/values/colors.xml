@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="off_white">#FAFAFA</color>
+    <color name="light_green1">#AAC39E</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="dark_blue">#284A63</color>
+    <color name="light_blue">#CFD9E0</color>
+    <color name="light_green">#ECF4D4</color>
+    <color name="grey_600">#444444</color>
+    <color name="grey_500">#ACACAC</color>
+    <color name="grey_300">#C6C6C6</color>
+    <color name="grey_200">#DADADA</color>
+    <color name="grey_100">#F2F2F2</color>
+    <color name="light_blue_400">#FF29B6F6</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="gray_400">#FFBDBDBD</color>
+    <color name="gray_600">#FF757575</color>
+    <color name="link_blue">#007AFF</color>
+    <color name="background_color">#F9F9F9</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="ripple_color">#1A1976D2</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="member_item_background">#ECF4D4</color>
+</resources>

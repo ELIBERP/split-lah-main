@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/home_24dp"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_records"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/receipt_24dp"
+            android:title="Records" />
+
+        <item
+            android:id="@+id/nav_add_split"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/add_circle_24dp"
+            android:title="Add Split"/>
+
+        <item
+            android:id="@+id/nav_debt_relation"
+            android:icon="@drawable/payments_24dp"
+            android:title="Debts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settings_24dp"
+            android:title="Settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        />
+    </group>
+</menu>

@@ -1,0 +1,20 @@
+<resources>
+    <string-array name="currencies">
+        <item>USD</item>
+        <item>EUR</item>
+        <item>SGD</item>
+        <item>JPY</item>
+        <item>GBP</item>
+    </string-array>
+
+    <string-array name="categories_array">
+        <item>food</item>
+        <item>drink</item>
+        <item>transport</item>
+        <item>shopping</item>
+        <item>entertainment</item>
+        <item>utilities</item>
+        <item>groceries</item>
+        <item>others</item>
+    </string-array>
+</resources>
