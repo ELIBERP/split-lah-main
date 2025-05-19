@@ -24,7 +24,7 @@ Our project poster provides an overview of Split-Lah's key features and design p
 
 Our project video provides an overview idea of Split-Lah's key features:
 
-![Project Video](https://youtube.com/shorts/OcC1ra79u8Y?feature=share)
+[Project Video](https://www.youtube.com/watch?v=OcC1ra79u8Y)
 
 ## 🖼️ Screenshots
 
